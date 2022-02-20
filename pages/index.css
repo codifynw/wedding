@@ -44,14 +44,14 @@ blockquote, q {
 	quotes: "" "";
 }
 
-@font-face {
-  font-family: 'amalfi';
-  src: url('../public/fonts/amalfiCoast.ttf');
-  font-style: normal;
-}
-
 html, body {
   line-height: initial; /* 1 */
+}
+
+@font-face {
+  font-family: 'amalfi';
+  src: url('../public/fonts/AmalfiCoast.ttf');
+  font-style: normal;
 }
 
 * {

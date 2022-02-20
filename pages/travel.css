@@ -1,0 +1,13 @@
+.travel-wrap {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel-heading {
+    font-size: 3em;
+    text-shadow: 0 0 1vh black;
+}

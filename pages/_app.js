@@ -4,6 +4,7 @@ import 'modern-normalize/modern-normalize.css'
 import './index.css'
 import './landing.css'
 import './travel.css'
+import './rsvp.css';
 
 
 function MyApp({ Component, pageProps }) {

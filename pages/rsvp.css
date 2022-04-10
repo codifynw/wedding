@@ -6,6 +6,10 @@
     color: black;
 }
 
+.RSVP iframe {
+    height: 100%;
+}
+
 .form-group {
     color: black;
     display: flex;

@@ -18,6 +18,9 @@ export default function Registry() {
 
   return (
     <div className="registry">
+        <div className="registry-psa">
+            <p className="registry-psa-text">Considering the cost of getting to the wedding, gifts are not a priority. However, if you would like to contribute to the wedding, a gift registry is available below.</p>
+        </div>
       <a
         className="zola-registry-embed"
         href={"www.zola.com/registry/codyandjaclyn2022"}

@@ -1,0 +1,21 @@
+.registry {
+    background: #373737;
+}
+.registry-psa {
+    color: white;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.registry-psa-text {
+    font-size: 1.5em;
+    font-weight: bold;
+}

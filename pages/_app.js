@@ -5,6 +5,7 @@ import './index.css'
 import './landing.css'
 import './travel.css'
 import './rsvp.css';
+import './registry.css'
 
 
 function MyApp({ Component, pageProps }) {

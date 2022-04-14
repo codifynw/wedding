@@ -45,6 +45,7 @@ h1.landing {
 .landing-wrap .landing-date {
   z-index: 1;
   font-size: 1.5em;
+  letter-spacing: 8px;
   text-shadow: 0 0 2vh black;
 }
 
@@ -55,6 +56,7 @@ h1.landing {
   height: 10vh;
   display: flex;
   position: absolute;
+  letter-spacing: 8px;
   justify-content: center;
   align-items: center;
   z-index: 1;

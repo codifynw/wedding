@@ -1,96 +1,136 @@
 .main {
-    color: white;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.altColor {
+  color: #ffcdb2;
 }
 
 .landing-wrap {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('../public/img/landing_2040.jpg');
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../public/img/landing_2040.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 100;
 }
 
 .landing-wrap:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: radial-gradient(transparent, rgba(0, 0, 0, 0.75));
-    z-index: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: radial-gradient(transparent, rgba(0, 0, 0, 0.75));
+  z-index: 0;
 }
 
 h1 {
-    font-size: 2.5em;
-    text-shadow: 0 0 2vh black;
+  font-size: 2.5em;
+  text-shadow: 0 0 2vh black;
 }
 
 h1.landing {
-    font-size: 4vw;
-    z-index: 1;
-    margin-top: 10vh;
-    margin-bottom: -20px;
+  margin: -40px 0;
+  font-size: 4vw;
+  z-index: 1;
 }
 
 .landing-wrap .landing-date {
-    z-index: 1;
-    font-size: 2em;
-        font-weight: bold;
-        text-shadow: 0 0 2vh black;
-    font-family: "Raleway", sans-serif;
+  z-index: 1;
+  font-size: 1.5em;
+  text-shadow: 0 0 2vh black;
 }
 
 .nav-wrap {
-    top: 0;
-    left: 50%;
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-    font-family: 'Raleway';
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 1.2em;
-    transform: translateX(-50%);
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1em;
+  transform: translateX(-50%);
+  background: url("../public/img/menu_border_bottom.png") no-repeat center
+    bottom;
 }
 
 .nav-wrap a {
-    color: white;
-    z-index: 1;
-    font-family: 'Raleway';
-    text-decoration: none;
+  z-index: 1;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-wrap a:hover {
+  font-size: 17px;
+}
+
+.landing-top {
+  letter-spacing: 12px;
 }
 
 .landing-bottom {
-    bottom: 2vh;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    z-index: 1;
-    font-size: 2em;
+  margin-top: 20px;
+  letter-spacing: 10px;
 }
 
 @media screen and (max-width: 992px) {
-    h1.landing {
-        font-size: 4em;
-        z-index: 1;
-        line-height: 2;
-        margin-top: 5vh;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    
-    .landing-wrap .landing-date {
-        z-index: 1;
-        font-size: 2em;
-        text-shadow: 0 0 2vh black;
-        font-family: "Raleway", sans-serif;
-    }
+  h1.landing {
+    font-size: 2em;
+    z-index: 1;
+    line-height: 2;
+    margin-top: 5vh;
+    margin-bottom: 10px;
+    text-align: center;
   }
+
+  .landing-wrap .landing-date {
+    z-index: 1;
+    font-size: 2em;
+    text-shadow: 0 0 2vh black;
+  }
+}
+
+.landing-banner {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2em;
+}
+
+.slider_trans_black {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 666;
+  top: 0px;
+  left: 0px;
+  background-image: url("../public/img/trans_black.png");
+  pointer-events: none;
+  z-index: 1;
+}

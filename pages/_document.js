@@ -9,7 +9,6 @@ export default function Document() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0"
         />
-        <title>Jaclyn + Cody</title>
         <meta name="descritpion" content="Jaclyn + Cody wedding website" />
         <meta name="keywords" content="Jaclyn + Cody wedding website" />
         <meta name="author" content="Jaclyn + Cody wedding website" />
@@ -29,7 +28,7 @@ export default function Document() {
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossorigin
+          crossOrigin
         ></link>
         <link
           href="https://fonts.googleapis.com/css2?family=Lustria&display=swap"

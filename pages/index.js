@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import CircleType from "circletype";
 
+import Head from "next/head";
 import Image from "next/image";
 import birdPNG from "../public/img/birds_icon.png";
 
@@ -18,6 +19,9 @@ export default function IndexPage() {
 
   return (
     <div className="main">
+      <Head>
+        <title>Jaclyn + Cody</title>
+      </Head>
       <div className="slider_trans_black"></div>
       <div className="landing-wrap">
         <div className="landing-banner">

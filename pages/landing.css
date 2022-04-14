@@ -66,6 +66,12 @@ h1.landing {
     bottom;
 }
 
+.nav-wrap.relative {
+  position: relative;
+  left: 0;
+  transform: initial;
+}
+
 .nav-wrap a {
   z-index: 1;
   margin: 20px;

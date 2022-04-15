@@ -22,7 +22,22 @@ export default function IndexPage() {
       <Head>
         <title>Jaclyn + Cody</title>
       </Head>
+
+      <nav className="nav-wrap">
+        <Link href="/">
+          <div className="nav-link">
+            <a className="bold"> HOME</a>
+          </div>
+        </Link>
+        <Link href="/rsvp">
+          <div className="nav-link">
+            <a>RSVP</a>
+          </div>
+        </Link>
+      </nav>
+
       <div className="slider_trans_black"></div>
+      <div className="extra-black-vignette"></div>
       <div className="landing-wrap">
         <div className="landing-banner">
           <div ref={circleTop} className="landing-top altColor">
@@ -40,43 +55,6 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-      <div className="nav-wrap">
-        {/* <Link href="/rsvp">
-          <a className="nav-link">RSVP</a>  
-        </Link> */}
-        {/* <Link href="/photos">
-          <a className="nav-link">PHOTOS</a>
-        </Link>
-        <Link href="/registry">
-          <a className="nav-link">REGISTRY</a>
-        </Link> */}
-        <Link href="/">
-          <div className="nav-link">
-            <a className="bold"> HOME</a>
-          </div>
-        </Link>
-        {/* <Link href="/details">
-          <div className="nav-link">
-            <a>Details</a>
-          </div>
-        </Link>
-        <Link href="/accomodations">
-          <div className="nav-link">
-            <a>Accomodations</a>
-          </div>
-        </Link> */}
-        <Link href="/rsvp">
-          <div className="nav-link">
-            <a>RSVP</a>
-          </div>
-        </Link>
-      </div>
-      <section className="travel bg-mauve hide">
-        <div className="travel-wrap">
-          <h2 className="travel-heading amalfi">Travel + </h2>
-          <p></p>
-        </div>
-      </section>
     </div>
   );
 }

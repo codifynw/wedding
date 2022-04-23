@@ -19,7 +19,7 @@ export default function Registry() {
 
   return (
     <div className="registry">
-      <nav className="nav-wrap">
+      <nav className="nav-wrap relative">
         <Link href="/">
           <div className="nav-link">
             <a className="bold"> HOME</a>

@@ -132,3 +132,7 @@ body {
 .bg-mauve {
   background: #b29bab;
 }
+
+.altColor {
+  color: #ffcdb2 !important;
+}

@@ -12,10 +12,6 @@ body,
   text-transform: uppercase;
 }
 
-.altColor {
-  color: #ffcdb2;
-}
-
 .landing-wrap {
   width: 100%;
   z-index: 100;
@@ -68,7 +64,7 @@ h1.landing {
   width: 100%;
   height: 10vh;
   display: flex;
-  position: absolute;
+  position: relative;
   letter-spacing: 8px;
   justify-content: center;
   align-items: center;
@@ -78,6 +74,10 @@ h1.landing {
   transform: translateX(-50%);
   background: url("../public/img/menu_border_bottom.png") no-repeat center
     bottom;
+}
+
+.main .nav-wrap {
+  position: absolute;
 }
 
 .nav-wrap.relative {
@@ -101,6 +101,7 @@ h1.landing {
 }
 
 .landing-top {
+  margin-bottom: 20px;
   letter-spacing: 12px;
 }
 

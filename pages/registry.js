@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Registry() {
   const initZola = function (e, t, n) {
@@ -18,9 +19,31 @@ export default function Registry() {
 
   return (
     <div className="registry">
-        <div className="registry-psa">
-            <p className="registry-psa-text">Considering the cost of getting to the wedding, gifts are not a priority. However, if you would like to contribute to the wedding, a gift registry is available below.</p>
-        </div>
+      <nav className="nav-wrap">
+        <Link href="/">
+          <div className="nav-link">
+            <a className="bold"> HOME</a>
+          </div>
+        </Link>
+        <Link href="/rsvp">
+          <div className="nav-link">
+            <a>RSVP</a>
+          </div>
+        </Link>
+
+        <Link href="/registry">
+          <div className="nav-link">
+            <a>GIFT</a>
+          </div>
+        </Link>
+      </nav>
+
+      <div className="registry-psa">
+        <p className="registry-psa-text">
+          Your presence is gift enough, but if you’re feeling particularly
+          generous, these are a few things we’d love to have as newlyweds.
+        </p>
+      </div>
       <a
         className="zola-registry-embed"
         href={"www.zola.com/registry/codyandjaclyn2022"}

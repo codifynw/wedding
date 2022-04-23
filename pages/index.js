@@ -34,6 +34,12 @@ export default function IndexPage() {
             <a>RSVP</a>
           </div>
         </Link>
+
+        <Link href="/registry">
+          <div className="nav-link">
+            <a>GIFT</a>
+          </div>
+        </Link>
       </nav>
 
       <div className="slider_trans_black"></div>
@@ -43,9 +49,9 @@ export default function IndexPage() {
           <div ref={circleTop} className="landing-top altColor">
             Save The Date
           </div>
-          <div className="love_birds">
+          {/* <div className="love_birds">
             <Image src={birdPNG} alt="" title="" />
-          </div>
+          </div> */}
           <h1 className="landing amalfi">
             Jaclyn <span className="altColor amalfi">& </span> Cody
           </h1>

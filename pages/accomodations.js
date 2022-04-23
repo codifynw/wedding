@@ -1,25 +1,37 @@
-import React, { useRef, useEffect } from 'react';
-import Link from 'next/link'
+import React, { useRef, useEffect } from "react";
+import Link from "next/link";
 
+import Head from "next/head";
 
 export default function Accomodations() {
-    return (
-        <div className="accomodation">
-            <div className="landing-wrap">
-                <p>COMING SOON</p>
-            </div>
-            <div className="nav-wrap">
-                <Link href="/details">
-                    <a className="nav-link">Details</a>
-                </Link>
-                <Link href="/accomodations">
-                    <a className="nav-link">Accomodations</a>
-                </Link>
-                <Link href="/rsvp">
-                    <a className="nav-link">RSVP</a>
-                </Link>
-            </div>
-        </div>
+  return (
+    <div className="accomodation">
+      <Head>
+        <title>Jaclyn + Cody</title>
+      </Head>
 
-    )
+      <nav className="nav-wrap">
+        <Link href="/">
+          <div className="nav-link">
+            <a> HOME</a>
+          </div>
+        </Link>
+        <Link href="/rsvp">
+          <div className="nav-link">
+            <a>RSVP</a>
+          </div>
+        </Link>
+        <Link href="/rsvp">
+          <div className="nav-link">
+            <a>GIFT</a>
+          </div>
+        </Link>
+        {/* <Link href="/accomodations">
+          <div className="nav-link">
+            <a className="altColor bold">STAY</a>
+          </div>
+        </Link> */}
+      </nav>
+    </div>
+  );
 }

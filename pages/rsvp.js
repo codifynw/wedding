@@ -5,33 +5,19 @@ export default function RSVP() {
   return (
     <div className="RSVP">
       <div className="nav-wrap relative">
-        {/* <Link href="/rsvp">
-          <a className="nav-link">RSVP</a>  
-        </Link> */}
-        {/* <Link href="/photos">
-          <a className="nav-link">PHOTOS</a>
-        </Link>
-        <Link href="/registry">
-          <a className="nav-link">REGISTRY</a>
-        </Link> */}
         <Link href="/">
           <div className="nav-link">
             <a className="bold"> HOME</a>
           </div>
         </Link>
-        {/* <Link href="/details">
-          <div className="nav-link">
-            <a>Details</a>
+        <Link href="/rsvp">
+          <div className="nav-link bold">
+            <a>RSVP</a>
           </div>
         </Link>
-        <Link href="/accomodations">
+        <Link href="/registry">
           <div className="nav-link">
-            <a>Accomodations</a>
-          </div>
-        </Link> */}
-        <Link href="/rsvp">
-          <div className="nav-link">
-            <a>RSVP</a>
+            <a>GIFT</a>
           </div>
         </Link>
       </div>

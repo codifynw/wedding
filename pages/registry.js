@@ -51,6 +51,7 @@ export default function Registry() {
       >
         Our Zola Wedding Registry
       </a>
+      <div className="footer"></div>
     </div>
   );
 }

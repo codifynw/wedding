@@ -2,11 +2,12 @@ import React, { useRef, useEffect } from "react";
 import CircleType from "circletype";
 
 import Head from "next/head";
-import Image from "next/image";
-import birdPNG from "../public/img/birds_icon.png";
-
-import gsap from "gsap";
 import Link from "next/link";
+import Header from "../components/Header";
+
+// import Image from "next/image";
+// import birdPNG from "../public/img/birds_icon.png";
+// import gsap from "gsap";
 
 export default function IndexPage() {
   const circleTop = useRef();
@@ -23,24 +24,7 @@ export default function IndexPage() {
         <title>Jaclyn + Cody</title>
       </Head>
 
-      <nav className="nav-wrap">
-        <Link href="/">
-          <div className="nav-link">
-            <a className="bold"> HOME</a>
-          </div>
-        </Link>
-        <Link href="/rsvp">
-          <div className="nav-link">
-            <a>RSVP</a>
-          </div>
-        </Link>
-
-        <Link href="/registry">
-          <div className="nav-link">
-            <a>GIFT</a>
-          </div>
-        </Link>
-      </nav>
+      <Header />
 
       <div className="slider_trans_black"></div>
       <div className="extra-black-vignette"></div>

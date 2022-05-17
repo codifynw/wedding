@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import Link from "next/link";
+import Header from "../components/Header";
 
 export default function Registry() {
   const initZola = function (e, t, n) {
@@ -11,32 +12,17 @@ export default function Registry() {
       (s.async = !0),
       (s.src = "https://widget.zola.com/js/widget.js"),
       a.parentNode.insertBefore(s, a));
+    a.parentNode.removeChild(s);
   };
 
   useEffect(() => {
+    console.log("initZola");
     initZola(document, "script", "zola-widget-js");
   }, []);
 
   return (
     <div className="registry">
-      <nav className="nav-wrap relative">
-        <Link href="/">
-          <div className="nav-link">
-            <a className="bold"> HOME</a>
-          </div>
-        </Link>
-        <Link href="/rsvp">
-          <div className="nav-link">
-            <a>RSVP</a>
-          </div>
-        </Link>
-
-        <Link href="/registry">
-          <div className="nav-link">
-            <a>GIFT</a>
-          </div>
-        </Link>
-      </nav>
+      <Header customClass="relative" />
 
       <div className="registry-psa">
         <p className="registry-psa-text">

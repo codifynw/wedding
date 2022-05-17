@@ -1,19 +1,19 @@
-import Head from 'next/head'
-import normalize from 'normalize.css'
-import 'modern-normalize/modern-normalize.css'
-import './index.css'
-import './landing.css'
-import './travel.css'
-import './rsvp.css';
-import './registry.css'
-
+import Head from "next/head";
+import normalize from "normalize.css";
+import "modern-normalize/modern-normalize.css";
+import "./index.css";
+import "./landing.css";
+import "./header.css";
+import "./travel.css";
+import "./rsvp.css";
+import "./registry.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-  <>
-    <Component {...pageProps}  />
-  </>
-  )
+    <>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;

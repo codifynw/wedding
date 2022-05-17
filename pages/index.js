@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from "react";
 import CircleType from "circletype";
 
 import Head from "next/head";
-import Link from "next/link";
 import Header from "../components/Header";
 
 // import Image from "next/image";

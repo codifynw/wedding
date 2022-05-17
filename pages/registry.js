@@ -1,5 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
-import Link from "next/link";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 export default function Registry() {
@@ -16,7 +15,6 @@ export default function Registry() {
   };
 
   useEffect(() => {
-    console.log("initZola");
     initZola(document, "script", "zola-widget-js");
   }, []);
 
@@ -27,7 +25,8 @@ export default function Registry() {
       <div className="registry-psa">
         <p className="registry-psa-text">
           Your presence is gift enough, but if you’re feeling particularly
-          generous, these are a few things we’d love to have as newlyweds.
+          generous, in lieu of a registry, we request donations towards our
+          Honeymoon or Home Renovation Fund.
         </p>
       </div>
       <a

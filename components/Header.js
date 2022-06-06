@@ -20,11 +20,11 @@ export default function Header(props) {
             <a>BEND</a>
           </div>
         </Link> */}
-        <Link href="/rsvp">
+        {/* <Link href="/rsvp">
           <div className="nav-link bold">
             <a>RSVP</a>
           </div>
-        </Link>
+        </Link> */}
         <Link href="/registry">
           <div className="nav-link">
             <a>GIFT</a>

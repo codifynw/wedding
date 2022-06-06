@@ -25,8 +25,7 @@ export default function Registry() {
       <div className="registry-psa">
         <p className="registry-psa-text">
           Your presence is gift enough, but if you’re feeling particularly
-          generous, in lieu of a registry, we request donations towards our
-          Honeymoon or Home Renovation Fund.
+          generous, these are a few things we’d love to have as newlyweds.
         </p>
       </div>
       <a

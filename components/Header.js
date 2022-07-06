@@ -8,22 +8,22 @@ export default function Header(props) {
     <>
       <header className={`${open ? "open" : ""}`}>
         <nav className={`nav-wrap ${props.customClass || ""}`}>
-          <Link href="/">
+          <Link href="/" passHref>
             <div className="nav-link">
               <a className="bold"> HOME</a>
             </div>
           </Link>
-          <Link href="/bend">
+          <Link href="/bend" passHref>
             <div className="nav-link">
               <a>BEND</a>
             </div>
           </Link>
-          {/* <Link href="/rsvp">
+          {/* <Link href="/rsvp" passHref>
           <div className="nav-link bold">
             <a>RSVP</a>
           </div>
         </Link> */}
-          <Link href="/registry">
+          <Link href="/registry" passHref>
             <div className="nav-link">
               <a>GIFT</a>
             </div>

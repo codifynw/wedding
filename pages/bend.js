@@ -26,7 +26,7 @@ export default function BEND() {
                 rel="noreferrer"
                 href="https://web.archive.org/web/20220420145916/https://www.nytimes.com/2019/05/30/travel/what-to-do-in-bend-oregon.html"
               >
-                "36 hours in Bend"
+                &quot;36 hours in Bend&quot;
               </a>{" "}
               is also a great read that should spark some ideas for your visit.
               We wish we could personally guide all our guests while visiting us
@@ -57,11 +57,11 @@ export default function BEND() {
                 <li>Bos Taurus</li>
                 <li>The Old Mill</li>
                 <li>Wild Rose Thai</li>
-                <li>Jackson's Corner</li>
+                <li>Jackson&apos;s Corner</li>
                 <li>Monkless Brewery</li>
                 <li>Dogwood (for a drink)</li>
                 <li>Sparrow Bakery and Coffee</li>
-                <li>Greg's Grill (not for food, but great for a drink)</li>
+                <li>Greg&apos;s Grill (not for food, but great for a drink)</li>
               </ul>
             </div>
 
@@ -70,10 +70,14 @@ export default function BEND() {
               <ul>
                 <li>Sparks Lake</li>
                 <li>The Last Blockbuster!</li>
-                <li>Drive Cascade Lake's Highway</li>
+                <li>Drive Cascade Lake&apos;s Highway</li>
                 <li>Walk the River Trail (start at Drake or Riverbend Park)</li>
                 <li>
-                  <a target="_blank" href="https://www.mtbachelor.com/">
+                  <a
+                    target="_blank"
+                    href="https://www.mtbachelor.com/"
+                    rel="noreferrer"
+                  >
                     Mt. Bachelor (just 20 minutes!)
                   </a>
                 </li>
@@ -81,6 +85,7 @@ export default function BEND() {
                 <li>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://www.visitbend.com/things-to-do/activities/river-lake-water/deschutes-river-floating-tubing/"
                   >
                     Float the Deschutes River
@@ -93,11 +98,11 @@ export default function BEND() {
                 <li>Old St. Francis School Hotel, Restaurant and Theater</li>
                 <li>Dillon Falls</li>
                 <li>Multiple World Class Golf Courses</li>
-                <li>Rent a Mountain Bike and go to Phil's Trail</li>
+                <li>Rent a Mountain Bike and go to Phil&apos;s Trail</li>
                 <li>Hire a Fishing Guide</li>
                 <li>
                   Dozens of Local Brewery Tours, Tastings and Bites. Deschutes,
-                  Crux, Good Life and Boneyard are Cody's favorites
+                  Crux, Good Life and Boneyard are Cody&apos;s favorites
                 </li>
                 <li>Scenic Hikes</li>
                 <li className="bold">
@@ -121,7 +126,7 @@ export default function BEND() {
               <a target="_blank" rel="noreferrer" href="http://www.flyrdm.com/">
                 Redmond Airport
               </a>{" "}
-              located about 20 miles North of Bend. If you're feeling
+              located about 20 miles North of Bend. If you&apos;re feeling
               adventerous, you can also fly into Portland, OR and drive 3.5
               hours to Bend. The drive is gorgeous and passes over the beautiful
               Mt. Hood.

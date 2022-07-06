@@ -12,13 +12,18 @@ export default function BEND() {
               Bend is one of our favorite locations in the country which is why
               we decided to move here in 2018. The best source of information to
               make your Bend visit memorable is{" "}
-              <a target="_blank" href="https://www.visitbend.com/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.visitbend.com/"
+              >
                 www.visitbend.com
               </a>
               . The Visit Bend website will be your best source to tailor your
               visit to your own personal interests. This 2019 NYTimes article{" "}
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://web.archive.org/web/20220420145916/https://www.nytimes.com/2019/05/30/travel/what-to-do-in-bend-oregon.html"
               >
                 "36 hours in Bend"
@@ -113,7 +118,7 @@ export default function BEND() {
           <div className="section-info">
             <p>
               The closest airport is the{" "}
-              <a target="_blank" href="http://www.flyrdm.com/">
+              <a target="_blank" rel="noreferrer" href="http://www.flyrdm.com/">
                 Redmond Airport
               </a>{" "}
               located about 20 miles North of Bend. If you're feeling

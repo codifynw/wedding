@@ -11,22 +11,22 @@ export default function Accomodations() {
       </Head>
 
       <nav className="nav-wrap">
-        <Link href="/">
+        <Link href="/" passHref>
           <div className="nav-link">
             <a> HOME</a>
           </div>
         </Link>
-        <Link href="/rsvp">
+        <Link href="/rsvp" passHref>
           <div className="nav-link">
             <a>RSVP</a>
           </div>
         </Link>
-        <Link href="/rsvp">
+        <Link href="/rsvp" passHref>
           <div className="nav-link">
             <a>GIFT</a>
           </div>
         </Link>
-        {/* <Link href="/accomodations">
+        {/* <Link href="/accomodations" passHref>
           <div className="nav-link">
             <a className="altColor bold">STAY</a>
           </div>

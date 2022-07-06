@@ -1,0 +1,84 @@
+.bend {
+  background-color: #fff;
+  font-size: 1.25rem;
+  color: #4b4b4b;
+}
+
+.bend section {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.bend-container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  padding: 0.25rem 0;
+  color: blue;
+}
+
+.dark-text .nav-link a {
+  color: #000;
+}
+
+.section-info-flex {
+  display: flex;
+}
+
+.section-info-flex-item {
+  width: 50%;
+  padding-right: 10px;
+}
+
+.p-pad-top {
+  padding-top: 1rem;
+}
+
+p.bold {
+  font-weight: bold;
+}
+
+.bold {
+  color: red;
+}
+
+a {
+  color: #000;
+}
+a:visited {
+  color: #000;
+}
+
+@media only screen and (max-width: 800px) {
+  .section-info-flex {
+    flex-direction: column;
+  }
+  .section-info-flex-item {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+ul {
+  list-style: circle;
+  padding-left: 1rem;
+}
